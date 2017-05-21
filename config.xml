@@ -7,10 +7,13 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
-        <content src="index.html" />
+
+
+    <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <access origin="*" />
-  
+    <preference name="StatusBarBackgroundColor" value="#59c2ff" />
+
 
 
     <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" />
@@ -20,8 +23,8 @@
 
 
 
-    <platform name="android">
-        <icon density="xxxhdpi" src="www/res/icon/drawable-xxxhdpi-icon.png" />
-        <splash density="port-xxxhdpi" src="www/res/screen/drawable-port-xxxhdpi-screen.png" />
+
+
+
 
 </widget>
