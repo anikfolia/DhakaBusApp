@@ -26,16 +26,22 @@
   </div>
 </div>
 
+<div id="opacityeffect" class="opacityeffect">
+</div>
 
-<span class="mainnavbarbuton" " onclick="openNav()">&#9776; Select Your Location</span>
+
+
+<span class="mainnavbarbuton" " onclick="openNav()"> ☰ Where are you?</span>
 
 <script>
 function openNav() {
-    document.getElementById("myNav").style.width = "100%";
+    document.getElementById("myNav").style.width = "75%";
+    document.getElementById("opacityeffect").style.width = "100%";
 }
 
 function closeNav() {
     document.getElementById("myNav").style.width = "0%";
+    document.getElementById("opacityeffect").style.width = "0";
 }
 </script>
 

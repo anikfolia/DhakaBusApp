@@ -4,14 +4,14 @@ body {
 }
 
 .mainnavbarbuton {
-    font-size: 36px;
+    font-size: 32px;
     color: white;
-    /* cursor: pointer; */
+    cursor: pointer;
     padding: 0px 0px 0px 18px;
     display: block;
     width: 100%;
     position: fixed;
-    background-color: #a0a0a0;
+    background-color: #59c2ff;
 }
 
 .overlay {
@@ -21,11 +21,23 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #1abc9c;
+    background-color: white;
     overflow-x: hidden;
     transition: 0.5s;
 }
 
+.opacityeffect {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+    overflow-x: hidden;
+    transition: 0.0s;
+}
 .overlay-content {
     position: relative;
     top: 25%;
@@ -38,13 +50,13 @@ body {
     padding: 8px;
     text-decoration: none;
     font-size: 32px;
-    color: #ecf0f1;
+    color: black;
     display: block;
     transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    color: #ff2323;
 }
 
 .overlay .closebtn {
@@ -92,8 +104,8 @@ body {
 }
 
 #myUL li a.header {
-  background-color: #e2e2e2;
-  cursor: default;
+    background-color: #ffffff;
+    cursor: default;
 }
 
 #myUL li a:hover:not(.header) {
