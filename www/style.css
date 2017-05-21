@@ -66,8 +66,8 @@ body {
 
 
 #myInput {
-    width: 99%;
-    font-size: 31px;
+    width: 92%;
+    font-size: 28px;
     padding: 1px 0px 0px 25px;
     border: 1px solid rgb(143, 229, 255);
     margin-bottom: 7px;
@@ -82,11 +82,11 @@ body {
 
 #myUL li a {
     border: 1px solid #ddd;
-    margin-top: -4px;
+    margin-top: -6px;
     background-color: #f6f6f6;
     padding: 5px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 29px;
     color: black;
     display: block;
 }
