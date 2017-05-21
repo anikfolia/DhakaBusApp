@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+
+<span class="mainnavbarbuton" " onclick="openNav()">&#9776; Select Your Location</span>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search Location.." title="Type in a name">
+
+<ul id="myUL">
+  <li><a href="#" class="header"></a></li>
+  <li><a href="#">Framgate</a></li>
+
+  <li><a href="#" class="header"></a></li>
+  <li><a href="#">Mirpur</a></li>
+
+  <li><a href="#" class="header"></a></li>
+  <li><a href="#">Dhanmondi</a></li>
+
+  <li><a href="#" class="header"></a></li>
+  <li><a href="#">Uttara</a></li>
+
+  <li><a href="#" class="header"></a></li>
+  <li><a href="#">Banani</a></li> 
+   
+  <li><a href="#" class="header"></a></li>
+  <li><a href="#">Khilkhet</a></li>
+
+  <li><a href="#" class="header"></a></li>
+  <li><a href="#">Gulshan</a></li> 
+
+  <li><a href="#" class="header"></a></li>
+  <li><a href="#">Mohakhali</a></li>
+
+  <li><a href="#" class="header"></a></li>
+  <li><a href="#">Shahbag</a></li>
+  
+  <li><a href="#" class="header"></a></li>
+  <li><a href="#">Azimpur</a></li>
+
+  <li><a href="#" class="header"></a></li>
+  <li><a href="#"></a></li>
+
+  <li><a href="#" class="header"></a></li>
+  <li><a href="#">Calvin</a></li>
+
+  <li><a href="#" class="header"></a></li>
+  <li><a href="#">Calvin</a></li>
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+
+        }
+    }
+}
+</script>
+
+
+</body>
+</html>
