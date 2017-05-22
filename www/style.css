@@ -84,7 +84,7 @@ body {
     border: 1px solid rgb(143, 229, 255);
     margin-bottom: 7px;
     box-shadow: 0px 2px 12px 1px rgba(143, 205, 212, 0.59);
-    margin-top: 51px;
+    margin-top: 45px;
 }
 #myUL {
   list-style-type: none;
@@ -110,4 +110,13 @@ body {
 
 #myUL li a:hover:not(.header) {
   background-color: #eee;
+}
+
+
+.aboutlogo {
+    padding: 15%;
+}
+
+#pagefcon {
+    margin-top: 43px; 
 }
